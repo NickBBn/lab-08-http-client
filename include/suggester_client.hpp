@@ -1,7 +1,7 @@
 //Copyright [2021] <Copyright nickgeo.winner@gmail.com>
 
-#ifndef INCLUDE_SUGGESTER_HPP_
-#define INCLUDE_SUGGESTER_HPP_
+#ifndef INCLUDE_SUGGESTER_CLIENT_HPP_
+#define INCLUDE_SUGGESTER_CLIENT_HPP_
 #include "nlohmann/json.hpp"
 #include <iostream>
 #include <thread>
@@ -20,5 +20,4 @@ class suggester_client {
                                    std::ostream& out);
 };
 
-
-#endif  // INCLUDE_SUGGESTER_HPP_
+#endif  // INCLUDE_SUGGESTER_CLIENT_HPP_
